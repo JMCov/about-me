@@ -1,0 +1,10 @@
+body{
+  background-color: black;
+  color: blueviolet;
+}
+
+h1{
+  color: whitesmoke;
+  width: max-content;
+  margin: auto;
+}
