@@ -1,11 +1,11 @@
-'use strict'
+'use strict';
 
 let score = 0;
 
 let userName = prompt('What is your name?');
 alert(`Welcome to my site ${userName}! Please answer the following questions with yes/no or y/n`);
 
-let questionOneGuess = prompt('Am I from North Carolina?').toLowerCase()
+let questionOneGuess = prompt('Am I from North Carolina?').toLowerCase();
 
 if(questionOneGuess === 'no' || questionOneGuess === 'n'){
   alert('You got it right!');
@@ -16,7 +16,7 @@ if(questionOneGuess === 'no' || questionOneGuess === 'n'){
   // console.log('Sorry, you got it wrong');
 }
 
-let questionTwoGuess = prompt('Am I married?').toLowerCase()
+let questionTwoGuess = prompt('Am I married?').toLowerCase();
 
 if(questionTwoGuess === 'yes' || questionTwoGuess === 'y'){
   alert('You got it right!');
@@ -27,7 +27,7 @@ if(questionTwoGuess === 'yes' || questionTwoGuess === 'y'){
   // console.log('Sorry, you got it wrong');
 }
 
-let questionThreeGuess = prompt('Have I lived in Japan?').toLowerCase()
+let questionThreeGuess = prompt('Have I lived in Japan?').toLowerCase();
 
 if(questionThreeGuess === 'yes' || questionThreeGuess === 'y'){
   alert('You got it right!');
@@ -38,7 +38,7 @@ if(questionThreeGuess === 'yes' || questionThreeGuess === 'y'){
   // console.log('Sorry, you got it wrong');
 }
 
-let questionFourGuess = prompt('Was I ever in the Army?').toLowerCase()
+let questionFourGuess = prompt('Was I ever in the Army?').toLowerCase();
 
 if(questionFourGuess === 'no' || questionFourGuess === 'n'){
   alert('You got it right!');
@@ -49,7 +49,7 @@ if(questionFourGuess === 'no' || questionFourGuess === 'n'){
   // console.log('Sorry, you got it wrong');
 }
 
-let questionFiveGuess = prompt('Do I have two daughters?').toLowerCase()
+let questionFiveGuess = prompt('Do I have two daughters?').toLowerCase();
 
 if(questionFiveGuess === 'yes' || questionFiveGuess === 'y'){
   alert('You got it right!');
