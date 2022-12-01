@@ -1,6 +1,9 @@
 'use strict';
 
 let score = 0;
+let randomNum = 12;
+let i = 3;
+let countriesArray = ['bolivia', 'canada', 'germany', 'australia', 'egypt', 'vietnam'];
 
 let userName = prompt('What is your name?');
 alert(`Welcome to my site ${userName}! Please answer the following questions with yes/no or y/n`);
@@ -60,5 +63,36 @@ if(questionFiveGuess === 'yes' || questionFiveGuess === 'y'){
   // console.log('Sorry, you got it wrong');
 }
 
+let questionSixGuess = prompt('Guess a number from 1-100!');
 
-alert(`All right ${userName} you got ${score} out of 5 correct!`);
+while (questionSixGuess !== randomNum && i > 0){
+  if (questionSixGuess > randomNum){
+    questionSixGuess = prompt(`Wrong my number is lower than ${questionSixGuess}! Guess again!`);
+    i--;
+  }else if (questionSixGuess < randomNum){
+    questionSixGuess = prompt(`Wrong my number is higher than ${questionSixGuess}! Guess again!`);
+    i--;
+  }else{
+    alert(`Well Done ${userName}, ${randomNum} is the answer!`);
+    score++;
+    break;
+  }
+  if (i === 0){
+    alert(`The correct answer is ${randomNum}`);
+  }
+}
+
+for (i = 0; i < 6; i++){
+  let questionSevenGuess = prompt('Name one of the countries I am thinking about!').toLowerCase();
+  if (countriesArray.indexOf(questionSevenGuess) >= 0){
+    alert(`Good job ${userName}! ${questionSevenGuess} is correct`);
+    score++;
+    break;
+  } else {
+    alert('That is not one of the countries I am thinking about. Try Again!');
+  }
+}
+
+alert(`All possible answers were: ${countriesArray}`);
+
+alert(`All right ${userName} you got ${score} out of 7 correct!`);
