@@ -6,6 +6,5 @@ Purpose: Learning CSS, JavaScript, and HTML
 
 Collaborated with: Adrienne Frey & Joe Davitt
 
-
 Driver for Brandon Perard's Lab 4
 Navigator for Brandon Perard's Lab 4
