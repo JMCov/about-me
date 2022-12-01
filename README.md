@@ -8,4 +8,4 @@ Collaborated with: Adrienne Frey & Joe Davitt
 
 
 Driver for Brandon Perard's Lab 4
-Navigator for Diontre Sanders Lab 4
+Navigator for Brandon Perard's Lab 4
