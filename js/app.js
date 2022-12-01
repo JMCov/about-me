@@ -5,10 +5,11 @@ let randomNum = 12;
 let i = 3;
 let countriesArray = ['bolivia', 'canada', 'germany', 'australia', 'egypt', 'vietnam'];
 
-function questionOne() {
-  let userName = prompt('What is your name?');
-  alert(`Welcome to my site ${userName}! Please answer the following questions with yes/no or y/n`);
 
+let userName = prompt('What is your name?');
+alert(`Welcome to my site ${userName}! Please answer the following questions with yes/no or y/n`);
+
+function questionOne() {
   let questionOneGuess = prompt('Am I from North Carolina?').toLowerCase();
 
   if (questionOneGuess === 'no' || questionOneGuess === 'n') {
