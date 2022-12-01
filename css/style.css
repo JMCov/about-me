@@ -1,10 +1,26 @@
 body{
   background-color: black;
   color: blueviolet;
+  width: 85%;
+  margin: auto;
 }
 
 h1{
   color: whitesmoke;
   width: max-content;
   margin: auto;
+  font-size: x-large;
+}
+
+h2{
+  color: whitesmoke;
+  font-size: x-large;
+}
+
+ol{
+  list-style-type: upper-roman;
+}
+
+ul{
+  list-style-type: square;
 }
